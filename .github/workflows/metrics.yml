@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: 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
           
           # Basic config
           user: anxlz
