@@ -219,7 +219,7 @@ jobs:
           plugin_chess: yes
           plugin_chess_animation: '{"size": 40, "delay": 3, "duration": 0.6}'
           plugin_chess_platform: lichess.org
-          plugin_chess_user: anxlz
+          plugin_chess_user: AnxiL
           
           plugin_music: yes
           plugin_music_limit: 4
