@@ -26,3 +26,5 @@ jobs:
           config_timezone: Africa/Cairo
           config_twemoji: yes
           repositories_forks: yes
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
