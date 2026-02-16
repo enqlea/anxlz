@@ -20,9 +20,13 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           base_hireable: yes
+          base_indepth: yes
           config_octicon: yes
           config_timezone: Africa/Cairo
           config_twemoji: yes
+          config_order: base.header, isocalendar, languages, notable, discussions, topics
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
           
           plugin_16personalities: yes
           plugin_16personalities_url: https://www.16personalities.com/profiles/957757bd42613
@@ -67,12 +71,14 @@ jobs:
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 8
+          plugin_languages_limit: 2
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
+          plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_indepth: yes
           
           plugin_leetcode: yes
           plugin_leetcode_limit_recent: 2
