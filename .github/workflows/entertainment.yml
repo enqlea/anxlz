@@ -22,6 +22,8 @@ jobs:
           config_octicon: yes
           config_timezone: Africa/Cairo
           config_twemoji: yes
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
           
           plugin_anilist: yes
           plugin_anilist_limit: 10
