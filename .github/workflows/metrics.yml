@@ -127,7 +127,7 @@ jobs:
           plugin_screenshot_mode: image
           plugin_screenshot_selector: body
           plugin_screenshot_title: Screenshot
-          plugin_screenshot_url: https://anxlz.github.io/QuizApp/
+          plugin_screenshot_url: https://adasablog.vercel.app/
           plugin_screenshot_viewport: '{"width": 1280, "height": 1280}'
           
           plugin_skyline: yes
