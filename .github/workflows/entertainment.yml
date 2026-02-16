@@ -15,7 +15,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: entertainment.svg
-          token: NOT_NEEDED
+          token: ${{ secrets.METRICS_TOKEN }}
           user: anxlz
           template: classic
           base: ""
@@ -35,10 +35,10 @@ jobs:
           plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
           plugin_chess_animation: '{"size": 40, "delay": 3, "duration": 0.6}'
           plugin_chess_platform: lichess.org
-          plugin_chess_user: .user.login
           
           plugin_music: yes
           plugin_music_provider: youtube
+          plugin_music_token: ${{ secrets.YOUTUBE_COOKIE }}
           plugin_music_limit: 4
           plugin_music_mode: recent
           plugin_music_played_at: yes
