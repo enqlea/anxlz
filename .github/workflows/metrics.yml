@@ -148,7 +148,7 @@ jobs:
           plugin_repositories_featured: anxlz/QuizApp
           
           plugin_rss: yes
-          plugin_rss_source: https://dev.to/feed/anxlz
+          plugin_rss_source: https://news.ycombinator.com/rss
           plugin_rss_limit: 4
           
           plugin_screenshot: yes
