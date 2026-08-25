@@ -127,8 +127,8 @@ jobs:
           plugin_screenshot_mode: image
           plugin_screenshot_selector: body
           plugin_screenshot_title: Recent Project
-          plugin_screenshot_url: https://anxlz.vercel.app
-          plugin_screenshot_viewport: '{"width": 1280, "height": 1280}'
+          plugin_screenshot_url: https://egy-analyzer.vercel.app
+          plugin_screenshot_viewport: '{"width": 1024, "height": 768}'
           
           plugin_skyline: yes
           plugin_skyline_year: 2026
