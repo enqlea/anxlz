@@ -55,7 +55,6 @@ jobs:
           plugin_followup_indepth: yes
           plugin_followup_sections: repositories
           
-          plugin_fortune: yes
           plugin_gists: yes
           
           plugin_introduction: yes
