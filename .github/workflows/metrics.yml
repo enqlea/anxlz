@@ -28,9 +28,6 @@ jobs:
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
-          
           plugin_code: yes
           plugin_code_days: 3
           plugin_code_lines: 12
