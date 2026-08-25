@@ -144,14 +144,6 @@ jobs:
           plugin_starlists_limit_languages: 8
           plugin_starlists_limit_repositories: 2
           plugin_starlists_shuffle_repositories: yes
-
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
-          plugin_screenshot_title: Recent Project
-          plugin_screenshot_url: https://egy-analyzer.vercel.app
-          plugin_screenshot_viewport: '{"width": 1024, "height": 768}'
           
           plugin_stars: yes
           plugin_stars_limit: 4
