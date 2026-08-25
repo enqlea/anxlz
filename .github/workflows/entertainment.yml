@@ -39,4 +39,5 @@ jobs:
           
           plugin_chess: yes
           plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
+          plugin_chess_user: AnxiL
           plugin_chess_platform: lichess.org
