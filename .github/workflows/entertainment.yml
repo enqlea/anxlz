@@ -37,12 +37,11 @@ jobs:
           plugin_music_provider: youtube
           plugin_music_playlist: >-
            https://music.youtube.com/playlist?list=PLJjv6Ya2rrv9b7ADpLu0vq9Xx6stjM5lI&si=BDNKBo7sEQd63D0T
-           
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_mode: image
-          plugin_screenshot_selector: body
-          plugin_screenshot_title: Recent Project
-          plugin_screenshot_url: https://egy-analyzer.vercel.app
-          plugin_screenshot_viewport: '{"width": 1024, "height": 768}'
+
+          plugin_skyline: yes
+          plugin_skyline_year: 2026
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugin_skyline_compatibility: yes
+          plugin_skyline_settings: '{"url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}", "ready": "[...document.querySelectorAll(''.display-info span'')].map(span => span.innerText).includes(''${login}'')", "wait": 4, "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"}'
       
