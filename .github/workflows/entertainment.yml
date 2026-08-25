@@ -34,6 +34,7 @@ jobs:
           plugin_anilist_user: anxlz
 
           plugin_music: yes
+          plugin_music_provider: spotify
           plugin_music_playlist: https://open.spotify.com/embed/album/1AvZnGEW0QnxVfSaPmavoN?utm_source=generator&si=60a5daca0d15490d
           
           plugin_chess: yes
