@@ -45,5 +45,4 @@ jobs:
           plugin_screenshot_title: Recent Project
           plugin_screenshot_url: https://egy-analyzer.vercel.app
           plugin_screenshot_viewport: '{"width": 1024, "height": 768}'
-          
-          plugin_fortune: yes
+      
