@@ -34,12 +34,6 @@ jobs:
           plugin_anilist_user: anxlz
 
           plugin_music: yes
-          plugin_music_provider: spotify
-          plugin_music_mode: recent
-          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-          plugin_music_limit: 10
-          
-          plugin_chess: yes
-          plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
-          plugin_chess_user: AnxiL
-          plugin_chess_platform: lichess.org
+          plugin_music_provider: youtube
+          plugin_music_playlist: >-
+           https://music.youtube.com/playlist?list=PLJjv6Ya2rrv9b7ADpLu0vq9Xx6stjM5lI&si=BDNKBo7sEQd63D0T
