@@ -119,7 +119,7 @@ jobs:
           
           plugin_repositories: yes
           plugin_repositories_order: featured, pinned, starred, random, contributors, stargazers, watchers, sponsors
-          plugin_repositories_featured: anxlz/QuizApp
+          plugin_repositories_featured: anxlz/EgyAnalyzer
           
           plugin_rss: yes
           plugin_rss_source: https://news.ycombinator.com/rss
@@ -130,11 +130,11 @@ jobs:
           plugin_screenshot_mode: image
           plugin_screenshot_selector: body
           plugin_screenshot_title: Recent Project
-          plugin_screenshot_url: https://anxlz.github.io/SpaceApp/
+          plugin_screenshot_url: https://anxlz.vercel.app
           plugin_screenshot_viewport: '{"width": 1280, "height": 1280}'
           
           plugin_skyline: yes
-          plugin_skyline_year: 2025
+          plugin_skyline_year: 2026
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
           plugin_skyline_compatibility: yes
@@ -155,11 +155,6 @@ jobs:
           plugin_stackoverflow_lines_snippet: 2
           plugin_stackoverflow_sections: answers-top, questions-recent
           plugin_stackoverflow_user: 25005539
-          
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
-          plugin_stargazers_charts_type: graph
-          plugin_stargazers_days: 14
           
           plugin_starlists: yes
           plugin_starlists_languages: yes
