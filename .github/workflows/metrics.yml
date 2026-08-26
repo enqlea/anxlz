@@ -120,7 +120,7 @@ jobs:
           
           plugin_rss: yes
           plugin_rss_source: https://news.ycombinator.com/rss
-          plugin_rss_limit: 4
+          plugin_rss_limit: 5
           
           plugin_sponsors: yes
           plugin_sponsors_sections: goal, list, about
