@@ -35,6 +35,7 @@ jobs:
 
           plugin_music: yes
           plugin_music_provider: youtube
+          plugin_music_limit: 6
           plugin_music_playlist: >-
            https://music.youtube.com/playlist?list=PLJjv6Ya2rrv9b7ADpLu0vq9Xx6stjM5lI&si=BDNKBo7sEQd63D0T
            
